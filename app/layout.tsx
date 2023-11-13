@@ -7,11 +7,11 @@ import Footer from '@/components/footer'
 
 import './globals.css'
 
-const font = Urbanist({ subsets: ['latin'] })
+const font = Urbanist({ subsets: ['latin-ext'] })
 
 export const metadata = {
-  title: 'Store',
-  description: 'Store - The place for all your purchases.',
+  title: 'Parduotuvė',
+  description: 'Parduotuvė - vieta jūsų apsipirkimams.',
 }
 
 export default function RootLayout({
@@ -20,7 +20,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="lt">
       <body className={font.className}>
         <ToastProvider />
         <ModalProvider />
